@@ -1,0 +1,122 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Header styles */
+header {
+    background-color: #2f3e52;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1::before {
+    content: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Globe_icon.svg/1024px-Globe_icon.svg.png"); /* Example globe icon */
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Controls styling */
+#controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#controls label {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#controls input[type="search"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+#controls button {
+    padding: 10px 15px;
+    font-size: 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#controls button#lookup {
+    background-color: #28a745;
+    color: white;
+}
+
+#controls button#lookup:hover {
+    background-color: #218838;
+}
+
+#controls button#lookupCities {
+    background-color: #007bff;
+    color: white;
+}
+
+#controls button#lookupCities:hover {
+    background-color: #0056b3;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #dee2e6;
+}
+
+table th {
+    background-color: #343a40;
+    color: white;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #f8f9fa;
+}
+
+table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+/* Footer styling (optional, if needed) */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2f3e52;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} 
