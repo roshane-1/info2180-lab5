@@ -26,7 +26,7 @@ if (isset($_GET['country'])) {
 }
 ?>
 
-<!-- Start of the HTML table
+Start of the HTML table
 <table border="1">
     <thead>
         <tr>
@@ -52,4 +52,4 @@ if (isset($_GET['country'])) {
             </tr>
         <?php endif; ?>
     </tbody>
-</table> -->
+</table>
